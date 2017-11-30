@@ -41,37 +41,19 @@ dl {
   margin-bottom: 1.5rem;
 }
 
-section {
-  display: block;
-  width: 100%;
-  float: left;
-  clear: left;
-  padding: .75rem;
-  background-color: #f2f2f2;
-  text-align: left;
-  border-left-style: solid;
-  border-left-width: thin;
-  border-left-color: #333;
-  border-right-style: solid;
-  border-right-width: thin;
-  border-right-color: #333;
-  position: absolute;
-}
-
 .anderon {
   display: inline-block;
   width: 25%;
   float: left;
   clear: left;
   padding: .75rem;
+  padding-bottom: 4rem;
   background-color: #e2e2e2;
   text-align: left;
   border-left-style: solid;
   border-left-width: thin;
   border-left-color: #333;
-  border-right-style: solid;
-  border-right-width: thin;
-  border-right-color: #333;
+  max-width: 25%;
 }
 
 .knights {
@@ -79,15 +61,13 @@ section {
   width: 25%;
   float: left;
   padding: .75rem;
+  padding-bottom: 2rem;
   background-color: #ccc;
   text-align: left;
   border-left-style: solid;
   border-left-width: thin;
   border-left-color: #333;
-  border-right-style: solid;
-  border-right-width: thin;
-  border-right-color: #333;
-  height: 100%;
+  max-width: 25%;
 }
 
 .ships {
@@ -97,13 +77,12 @@ section {
   float: right;
   margin: 0;
   padding: .75rem;
+  padding-bottom: 2rem;
   text-align: left;
-  border-left-style: solid;
-  border-left-width: thin;
-  border-left-color: #333;
   border-right-style: solid;
   border-right-width: thin;
   border-right-color: #333;
+  max-width: 25%;
 }
 
 .dragon {
@@ -112,13 +91,18 @@ section {
   width: 25%;
   margin: auto;
   padding: .75rem;
+  padding-bottom: 4rem;
   text-align: left;
   border-left-style: solid;
   border-left-width: thin;
   border-left-color: #333;
-  border-right-style: solid;
-  border-right-width: thin;
-  border-right-color: #333;
+  max-width: 25%;
+}
+
+section {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .btn {
@@ -135,7 +119,8 @@ section {
 
 img {
   margin: auto;
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
   display: block;
 }
 
@@ -149,5 +134,5 @@ a {
 }
 
 .btn-small {
-
+  font-size: .875rem;
 }
